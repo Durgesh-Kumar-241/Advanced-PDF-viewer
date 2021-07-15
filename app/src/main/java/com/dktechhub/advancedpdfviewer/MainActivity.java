@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         try{
             Intent intent= getIntent();
             uri=intent.getData();
-            Toast.makeText(this, intent.getData().toString(), Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, intent.getData().toString(), Toast.LENGTH_SHORT).show();
             load();
         }catch (Exception e)
         {
